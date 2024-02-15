@@ -1593,3 +1593,10 @@ section {
 
   aspect-ratio: 16 / 9;
 }
+
+@media (max-width: 500px) {
+  #header .logo {
+    font-size: 18px;
+  }
+
+}
