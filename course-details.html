@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Course Details - Skill Up Bootstrap </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!--  Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Skill Up</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="courses.html">Courses</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="courses.html" class="get-started-btn">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h2 id="page-title">Course Details</h2>
+        <p id="page-desc">Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique
+          quia voluptas sit
+          quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <section class="container">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" onclick="toggleLanguage()" id="language_toggle">
+        <label class="form-check-label">Change Language</label>
+      </div>
+    </section>
+    <!-- ======= Cource Details Section ======= -->
+    <section id="course-details" class="course-details">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-8">
+            <img id="course-image" src="assets/img/course-details.jpg" class="img-fluid" alt="">
+            <h3 id="course-title">Et enim incidunt fuga tempora</h3>
+            <p id="course-description">
+              Qui et explicabo voluptatem et ab qui vero et voluptas. Sint voluptates temporibus quam autem. Atque
+              nostrum voluptatum laudantium a doloremque enim et ut dicta. Nostrum ducimus est iure minima totam
+              doloribus nisi ullam deserunt. Corporis aut officiis sit nihil est. Labore aut sapiente aperiam.
+              Qui voluptas qui vero ipsum ea voluptatem. Omnis et est. Voluptatem officia voluptatem adipisci et iusto
+              provident doloremque consequatur. Quia et porro est. Et qui corrupti laudantium ipsa.
+              Eum quasi saepe aperiam qui delectus quaerat in. Vitae mollitia ipsa quam. Ipsa aut qui numquam eum iste
+              est dolorum. Rem voluptas ut sit ut.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5 id="trainer-label">Trainer</h5>
+              <p id="trainer-name"><a href="#">Walter White</a></p>
+            </div>
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5 id="fee-label">Course Fee</h5>
+              <p id="fee-amount">$165</p>
+            </div>
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5 id="seats-label">Available Seats</h5>
+              <p id="seats-count">30</p>
+            </div>
+            <div class="course-info d-flex justify-content-between align-items-center">
+              <h5 id="schedule-label">Schedule</h5>
+              <p id="schedule-time">5.00 pm - 7.00 pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Cource Details Section -->
+
+    <!-- ======= Cource Details Tabs Section ======= -->
+    <section id="cource-details-tabs" class="cource-details-tabs">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Lecture 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Lecture 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Lecture 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Lecture 4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Thank You</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="video-container">
+                  <iframe width="100%" height="" src="https://www.youtube.com/embed/LvDEO27plw0?si=7ZwiMzUVqHLR6dg4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="video-container">
+                  <iframe width="100%" height="" src="https://www.youtube.com/embed/cqC0cnzXjHI?si=2XCxFMyblJY3Px-8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="video-container">
+                  <iframe width="100%" height="" src="https://www.youtube.com/embed/UjFSsnu6Zns?si=jbzTh52myaFpApyU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="video-container">
+                  <iframe width="100%" height="" src="https://www.youtube.com/embed/LvDEO27plw0?si=7ZwiMzUVqHLR6dg4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Thank You for viewing this course</h3>
+                    <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fuga soluta
+                      facilis alias error esse placeat, magni doloremque corporis enim animi minima vel ea, saepe
+                      inventore voluptatum modi nam maiores autem? Dolorem ea, voluptas aperiam numquam consectetur,
+                      optio dolorum ut harum voluptatem fuga perferendis hic rerum doloribus modi? Rem, harum!</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/course-details-tab-5.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cource Details Tabs Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Skill Up</h3>
+            <p>
+              Old Rajendra Nagar <br>
+              New Delhi, India<br>
+              <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Courses</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Maths</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Chemistry</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Physics</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam totam molestiae quae.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Skill Up</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!--  Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <script>
+    let currentLanguage = 'en';
+
+    const languages = {
+      en: {
+        pageTitle: "Course Details",
+        pageDesc: "Learn the essential skills and technologies required for modern web development. This course covers HTML, CSS, JavaScript, and more, allowing you to create dynamic and responsive websites and web applications.",
+        courseTitle: 'Web Development Course',
+        courseDescription: "Become a proficient web developer with our comprehensive Web Development Course. In this course, you'll delve deep into the core technologies and frameworks used in modern web development. From building static web pages with HTML and styling them with CSS to creating dynamic and interactive web applications using JavaScript, you'll master every aspect of web development. Throughout the course, you'll explore advanced topics such as responsive web design, front-end frameworks like Bootstrap and React, back-end development with Node.js and Express.js, and database management with MongoDB. By the end of the course, you'll have the skills and knowledge to design, develop, and deploy full-fledged web applications that meet industry standards and user expectations. Whether you're a beginner looking to start a career in web development or an experienced developer seeking to enhance your skills, our Web Development Course provides the perfect learning path. Join us on this exciting journey and unlock endless possibilities in the world of web development.",
+        trainerLabel: 'Trainer',
+        trainerName: 'John Doe',
+        feeLabel: 'Course Fee',
+        feeAmount: '$199',
+        seatsLabel: 'Available Seats',
+        seatsCount: '20',
+        scheduleLabel: 'Schedule',
+        scheduleTime: '6.00 pm - 8.00 pm (Mon-Fri)'
+      },
+      hi: {
+        pageTitle: "पाठ्यक्रम विवरण",
+        pageDesc: 'आधुनिक वेब विकास के लिए आवश्यक योग्यताएँ और तकनीकों को सीखें। यह पाठ्यक्रम HTML, CSS, जावास्क्रिप्ट, और अधिक को शामिल करता है, जिससे आप डायनेमिक और प्रतिसादी वेबसाइटें और वेब अनुप्रयोग बना सकते हैं।',
+        courseTitle: 'वेब विकास पाठ्यक्रम',
+        courseDescription: "अपनी पूरी तरह से वेब डेवलपर बनें हमारे व्यापक वेब डेवलपमेंट कोर्स के साथ। इस कोर्स में, आप आधुनिक वेब डेवलपमेंट में प्रयोग किए जाने वाले मुख्य प्रौद्योगिकियों और फ्रेमवर्क्स में गहराई से प्रवेश करेंगे। HTML का उपयोग करके स्टेटिक वेब पेज बनाना और CSS का उपयोग करके उन्हें स्टाइल करना, जावास्क्रिप्ट का उपयोग करके डायनामिक और इंटरैक्टिव वेब ऐप्लिकेशन बनाना - आप वेब डेवलपमेंट के हर पहलू को मास्टर करेंगे। कोर्स के दौरान, आप रिस्पॉन्सिव वेब डिज़ाइन, बूटस्ट्रैप और रिएक्ट जैसे फ्रंट-एंड फ्रेमवर्क, नोड.जेएस और एक्सप्रेस.जेएस के साथ फ्रंट-एंड डेवलपमेंट, और मॉन्गोडीबी के साथ डेटाबेस प्रबंधन जैसे उन्नत विषयों का अध्ययन करेंगे। कोर्स के अंत तक, आपके पास वेब डेवलपमेंट उद्योग के मानकों और उपयोगकर्ता की उम्मीदों को पूरा करने वाले पूर्ण वेब एप्लिकेशन डिज़ाइन, डेवलप और डिप्लॉय करने के लिए कौशल और ज्ञान होगा। चाहे आप एक शुरुआती वेब डेवलपर हों जो वेब डेवलपमेंट में करियर शुरू करना चाहते हैं या एक अनुभवी डेवलपर होकर अपने कौशल को बढ़ाना चाहते हैं, हमारा वेब डेवलपमेंट कोर्स उपयुक्त शिक्षण मार्ग प्रदान करता है। हमें इस रोमांचक यात्रा में शामिल हों और वेब डेवलपमेंट के दुनिया में अंतरंग संभावनाओं को खोलें।",
+        trainerLabel: 'प्रशिक्षक',
+        trainerName: 'जॉन डो',
+        feeLabel: 'कोर्स शुल्क',
+        feeAmount: '₹199',
+        seatsLabel: 'उपलब्ध सीटें',
+        seatsCount: '20',
+        scheduleLabel: 'समय सारणी',
+        scheduleTime: '6.00 pm - 8.00 pm (सोम-शुक्र)'
+      }
+    };
+
+    function toggleLanguage() {
+      currentLanguage = currentLanguage === 'en' ? 'hi' : 'en'; // Toggle between 'en' and 'hi'
+      updateContent();
+    }
+
+    function updateContent() {
+      const language = languages[currentLanguage];
+      document.getElementById('page-title').innerText = language.pageTitle;
+      document.getElementById('page-desc').innerText = language.pageDesc;
+      document.getElementById('course-title').innerText = language.courseTitle;
+      document.getElementById('course-description').innerText = language.courseDescription;
+      document.getElementById('trainer-label').innerText = language.trainerLabel;
+      document.getElementById('trainer-name').innerHTML = `<a href="#">${language.trainerName}</a>`;
+      document.getElementById('fee-label').innerText = language.feeLabel;
+      document.getElementById('fee-amount').innerText = language.feeAmount;
+      document.getElementById('seats-label').innerText = language.seatsLabel;
+      document.getElementById('seats-count').innerText = language.seatsCount;
+      document.getElementById('schedule-label').innerText = language.scheduleLabel;
+      document.getElementById('schedule-time').innerText = language.scheduleTime;
+    }
+
+    // Initial content update
+    updateContent();
+  </script>
+
+</body>
+
+</html>
